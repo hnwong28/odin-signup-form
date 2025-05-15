@@ -1,0 +1,43 @@
+div {
+  border: 1px solid black;
+}
+
+.parent {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 8rem;
+  margin-top: 4rem;
+}
+
+.footer {
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+}
+
+.hero {
+  flex-grow: 1;
+}
+
+.form {
+  flex-grow: 1;
+}
+
+.account {
+  flex-grow: 1;
+}
